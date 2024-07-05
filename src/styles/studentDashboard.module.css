@@ -1,0 +1,10 @@
+.sorting {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sorting:focus {
+    outline: none;
+}

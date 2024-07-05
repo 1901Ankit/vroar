@@ -1,0 +1,413 @@
+/* .border_bottom {
+  border-bottom: 1px dashed #a91616;
+  margin-right: 26px;
+} */
+
+.bg_overflow h1 {
+  font-size: 70px;
+}
+
+.works_span span {
+  display: flex;
+  flex-direction: column;
+  position: realtive;
+}
+
+.bg_img_2 {
+  background-image: url('../assessts/images/background/hero-bg-2.jpg');
+}
+
+.border_wraper {
+  position: absolute;
+  left: 0;
+  top: 1.4375rem;
+  right: 0;
+}
+
+.border_dashed {
+  position: relative;
+  max-width: 23.125rem;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  border-top: 0.0625rem dashed #0f1422;
+}
+
+.btn_growmore {
+  position: relative;
+  bottom: 19px;
+}
+
+.ceo_wrapper {
+  border: 1px solid #222;
+  background: #000;
+}
+
+.image_wrapper {
+  background-color: #d7d7d7;
+  width: 350px;
+  border-radius: 8px;
+  /* position: relative; */
+  height: 42rem;
+}
+
+
+.who_we_are {
+  margin: 100px auto;
+  position: relative;
+}
+
+.img_men {
+  width: 33vw;
+  /* height: 120vh; */
+  position: absolute;
+  bottom: 0;
+}
+
+.bestTalent_wrapper {
+  background-color: #000000;
+  width: 250px;
+}
+
+.img_wave {
+  position: absolute;
+  /* margin-top: 8pc; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: -95px;
+  align-items: center;
+}
+
+.description::before {
+  content: "----------------";
+}
+
+.wrapper_ceo {
+  position: relative;
+  bottom: 73px;
+}
+
+.wrapper_wave {
+  width: 80vw;
+}
+
+
+.border_top {
+  border-top: 1px dashed #222;
+  margin-left: 26px;
+
+}
+
+/* 
+.border_bottom {
+  border-top: 1px dashed #222;
+} */
+
+
+
+.left_column_widget {
+  margin-top: 20px;
+}
+
+.right_column_widget {
+  border-left: 1px dashed #222;
+  margin-top: 20px;
+  margin-left: -18px;
+  padding-top: 10px;
+  padding: 0px 30px;
+}
+
+
+@media screen and (max-width:600px) {
+  .right_column_widget {
+    border-left: none;
+    text-align: center;
+  }
+
+  .go_btn {
+    margin-top: 20px;
+  }
+
+  /* 
+  .border_top {
+    border-bottom: 1px dashed #222;
+    margin-left: 26px;
+
+  } */
+}
+
+.right_column_widget p:first-child {
+  color: #17171b;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
+}
+
+.right_column_widget p:last-child {
+  color: #17171b;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width:600px) {
+  .right_column_widget p:first-child {
+    font-size: 20px;
+  }
+}
+
+.left_column_widget p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 19.2px;
+  left: 0px;
+  letter-spacing: 0.48px;
+  line-height: 19.2px
+}
+
+.image_overlay {
+  background-color: rgb(204 204 204 / 56%);
+  height: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  display: grid;
+  padding: 70px;
+  place-items: center;
+}
+
+.roar_image {
+  position: relative;
+  z-index: -1;
+  width: 600px;
+}
+
+.heading_roar_wrapper {
+  /* position: relative;
+  margin-top: -154px; */
+  max-width: 51.375rem;
+  margin-top: -13.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading_roar {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+.wave_wrapper {
+  background-image: url("https://vroar.s3.eu-north-1.amazonaws.com/vroar_images/homepage/Vroar_LineArt_Half.svg");
+  /* background-image: url("../assessts/images/homepage/Vroar_LineArt_Half.svg"); */
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 13%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: -155px;
+}
+
+.bannerIcons:hover {
+  text-decoration: underline;
+  color: #fcb25e;
+}
+
+.wave_image {
+  width: 80%;
+}
+
+.arrow_icon {
+  transition: 0.5s ease all;
+}
+
+.go_btn:hover {
+  color: #fcb25e;
+}
+
+.go_btn:hover .arrow_icon {
+  transform: translateX(8px);
+  color: #fcb25e;
+}
+
+.separator {
+  transform: rotate(180deg);
+}
+
+/* .works_button {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  animation-play-state: paused;
+} */
+.works_button:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.latest_news {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ceo_description {
+  text-align: start;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .latest_news {
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 30px;
+  }
+
+  .ceo_wrapper {
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+  }
+
+  .ceo_description {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+
+  .image_wrapper {
+    width: 270px;
+    height: 75vh;
+  }
+
+  .img_men {
+    width: 90%;
+    top: 6%;
+  }
+
+  .internship_programs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roar_image {
+    width: 100%;
+  }
+
+  .heading_roar {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .ceo_wrapper {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+  }
+
+  .roar {
+    width: 140px;
+  }
+
+  .img_wave {
+    margin-top: -27px;
+  }
+
+  .image_wrapper {
+    width: 250px;
+  }
+
+  .img_men {
+    width: 44vw;
+    height: 66vh;
+  }
+
+  .image_wrapper {
+    margin-top: -215px;
+  }
+
+  .heading_roar {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .ceo_wrapper {
+    width: 200px;
+    height: 200px;
+    margin-left: 35px;
+  }
+
+  .img_wave {
+    margin-top: -80px;
+  }
+
+  .roar {
+    width: 170px;
+  }
+
+  .image_wrapper {
+    width: 230px;
+  }
+
+  .img_men {
+    width: 340px;
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1030px) {
+  .ceo_wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .image_wrapper {
+    width: 250px;
+  }
+
+  .img_men {
+    width: 370px;
+  }
+
+  .img_wave {
+    margin-top: -57px;
+  }
+
+  .roar {
+    width: 170px;
+  }
+}

@@ -1,0 +1,65 @@
+.mainpage {
+  padding: 50px 0;
+}
+
+.Company_coverimages {
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.title {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.title:hover {
+  color: #f15d17;
+}
+
+.job_hyperlink {
+  color: #000000;
+
+}
+
+.job_hyperlink:hover {
+  color: #fcb52e !important;
+}
+
+.About_section {
+  padding: 18px 0;
+  border-top: 1px solid rgb(201, 196, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Student_jobsborder {
+  border: 1px solid rgb(201, 196, 196);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profile_photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -80px;
+  left: 25px;
+}
+
+.profile_photoalignment {
+  position: relative;
+}
+
+.Profile_data {
+  margin-top: 10vh;
+}
+
+.job_post {
+  border: 1px solid rgb(201, 196, 196);
+  padding: 18px;
+  border-radius: 10px;
+}

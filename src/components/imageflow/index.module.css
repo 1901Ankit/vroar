@@ -1,0 +1,35 @@
+.img_overflow {
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.image_relative {
+  position: relative;
+  left: 13px;
+  z-index: 99;
+}
+.image_first {
+  position: relative;
+  left: 24px;
+  z-index: 100;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .wrapper {
+    display: block;
+  }
+}

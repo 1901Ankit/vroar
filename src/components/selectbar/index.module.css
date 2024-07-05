@@ -1,0 +1,34 @@
+/* .select_header {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 13px;
+}
+.select_body {
+  border: 1px solid #fff;
+  background-color: #fff;
+  transition: 0.5s ease all;
+  position: absolute;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px;
+  height: 200px;
+  width: 145px;
+  overflow: scroll;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.options:hover {
+  background-color: #222;
+  color: #fff;
+}
+.select_bar {
+  cursor: pointer;
+} */

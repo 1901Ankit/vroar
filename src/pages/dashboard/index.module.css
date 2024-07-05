@@ -1,0 +1,64 @@
+.filter {
+  position: absolute;
+  right: 0;
+  background-color: #ffffff;
+  padding: 5px;
+  width: fit-content;
+  text-align: left;
+  border-radius: 8px;
+  top: 27px;
+}
+
+.sort {
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.sort:focus {
+  outline: none;
+}
+
+.status_jobs {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.offcanvas__top {
+  background-color: #0000002e;
+  height: 100% !important;
+}
+
+.filter_bar {
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  padding: 3px;
+  background: transparent;
+  font-size: 14px;
+}
+
+.filter_bar:focus {
+  outline: none;
+}
+
+.view {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 5px;
+  width: 80px;
+  color: #f15d17;
+  transition: 0.5s ease all;
+}
+
+.view:hover {
+  color: #fff !important;
+  background: var(--gradient);
+  border: var(--orange);
+}
+
+.offcanvas_body {
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+}

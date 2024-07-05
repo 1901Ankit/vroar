@@ -1,0 +1,113 @@
+.footer {
+  border-top: 1px solid #c4c4c4;
+}
+
+.footer_input {
+
+  height: 3.5rem;
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+  border: 0.0625rem solid rgba(15, 20, 34, .2);
+  border-radius: 0.75rem;
+  background-color: transparent;
+  color: #0f1422;
+  font-size: 1.0625rem;
+}
+
+.footer .custom_btn {
+
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: .75rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: .75rem;
+  background-image: linear-gradient(#f15b65, #fcb52e);
+  -webkit-transition: none;
+  transition: none;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer
+}
+
+.footer_input:focus {
+  outline: none;
+}
+
+.border_right {
+  border-right: 1px dashed #222;
+}
+
+.footer_social_icons {
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.footer_link:hover{
+  text-decoration: underline;
+  color: #f15d17;
+}
+.footer_link{
+  text-decoration: none;
+  color: #0f1422;
+}
+
+.footer_description {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.social_accounts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_social_icons{
+  transition: 0.5s   ease all;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_social_icons:hover{
+  background: var(--gradient);
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .footer_description {
+    display: block;
+  }
+}

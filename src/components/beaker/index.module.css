@@ -1,0 +1,18 @@
+.beaker {
+  margin-top: -177px;
+  width: 65px;
+  margin-left: 71px;
+  /* border-bottom-left-radius: 50%; */
+  /* border-bottom-right-radius: 50%; */
+  /* border-end-end-radius: 50%; */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7px;
+  font-weight: 600;
+}
+.svg_beaker {
+  overflow: hidden;
+}

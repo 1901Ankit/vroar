@@ -1,0 +1,17 @@
+.dot {
+  width: 10px;
+  height: 10px;
+  background-image: linear-gradient(#fcb52e, #f15b65);
+  border-radius: 50%;
+}
+
+.logo_profile {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.Connected_Links {
+  color: #000;
+  text-decoration: none;
+}

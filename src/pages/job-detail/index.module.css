@@ -1,0 +1,11 @@
+.skills {
+  border: 1px solid #f15d17;
+  margin-right: 5px;
+  border-radius: 18px;
+  padding: 8px;
+  font-size: 12px;
+  width: 170px;
+  background-image: linear-gradient(#f15b65, #fcb52e);
+  font-weight: 600;
+  text-transform: uppercase;
+}

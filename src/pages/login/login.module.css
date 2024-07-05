@@ -1,0 +1,56 @@
+/* .login_input::placeholder {
+  padding-left: 15px;
+} */
+.login_input:focus {
+  outline: none;
+}
+
+.login_tab {
+  background-color: #f15d17;
+  border-radius: 8px;
+  border: 1px solid #f15d17;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.5s ease all;
+}
+
+/* .login_tab:hover {
+  background-color: transparent;
+  border: 1px solid #f15d17;
+  color: #f15d17;
+} */
+
+.login_tab_selected {
+  background-color: transparent;
+  border: 1px solid #f15d17;
+  color: #f15d17;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.flags_select {
+  padding: 0 !important;
+  background-color: #eee;
+
+}
+
+.flags_select button {
+  height: 48px;
+  border-radius: 0px;
+  border: none;
+}
+
+.flags_select ul {
+  width: 125px;
+}
+
+.border_flex {
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  background: #eee;
+  width: 100%;
+}

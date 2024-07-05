@@ -1,0 +1,11 @@
+.wrapper {
+  border-radius: 8px;
+  border: 1px solid var(--grey);
+  background: #ffffff;
+  -webkit-box-shadow: 11px 12px 5px 1px rgba(207, 199, 207, 1);
+  -moz-box-shadow: 11px 12px 5px 1px rgba(207, 199, 207, 1);
+  box-shadow: 11px 12px 5px 1px rgba(207, 199, 207, 1);
+}
+/* .jobs_slider{
+  height: 200px;
+} */

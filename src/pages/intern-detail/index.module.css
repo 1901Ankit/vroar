@@ -1,0 +1,44 @@
+.edit_btn {
+    border-radius: 50%;
+    background: white;
+    padding: 6px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.wrapper_update_profile {
+    border: 2px solid grey;
+}
+
+.overflow__hidden {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.edit_profile_image {
+    z-index: 999;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-left: 127px;
+}
+
+.edit_profile_icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    z-index: 999;
+}
+
+.profile_image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-bottom: -77px;
+    /* margin-top: 40px; */
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+.heading_privacy::before {
+  content: "#";
+  font-weight: 600;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.contact {
+  text-decoration: none;
+  color: #000 !important ;
+}

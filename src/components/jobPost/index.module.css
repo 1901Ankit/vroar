@@ -1,0 +1,25 @@
+.view:hover {
+    text-decoration: underline;
+    color: #fcb52e;
+}
+
+.view {
+    color: var(--orangeColor);
+    text-decoration: none !important;
+}
+
+.job_hyperlink {
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.job_hyperlink:hover {
+    color: #fcb52e !important;
+}
+
+.line {
+    border-right: 1px solid #222;
+    padding: 15px;
+    display: block;
+    height: 100% !important;
+}

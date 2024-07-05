@@ -1,0 +1,108 @@
+.edit_btn {
+  border-radius: 50%;
+  background: white;
+  padding: 6px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  /* position: absolute;
+    right: 91px; */
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.edit_profile_image {
+  z-index: 999;
+  position: absolute;
+  margin-bottom: 20px;
+  margin-left: 127px;
+}
+
+.edit_profile_icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 40px;
+  margin-top: 20px;
+  z-index: 999;
+}
+
+.profile_image {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-bottom: -100px;
+  /* margin-top: 40px; */
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.edit_profile__icon {
+  border: 1px solid var(--grey);
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: var(--lightGrey);
+  cursor: pointer;
+}
+
+.overflow__hidden {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.company_logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #d7d7d7;
+}
+
+.skills_wrapper {
+  border: 1px solid #f15d17;
+  margin: 4px;
+  padding: 5px 15px;
+  /* padding: 3px; */
+  border-radius: 20px;
+}
+
+.separator {
+  border-left: 1px dashed #000;
+  height: 100%;
+}
+
+.line {
+  border-right: 1px dashed #222;
+  padding: 15px;
+  display: block;
+  height: 100px;
+
+}
+
+.skils {
+  font-size: 13px;
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .companynme {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skils {
+    display: block !important;
+  }
+
+  .line {
+    border: none;
+  }
+
+  .cvrimg {
+    height: 25vh !important;
+  }
+}

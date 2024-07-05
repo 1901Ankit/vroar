@@ -1,0 +1,64 @@
+.bg_circle {
+  background-image: linear-gradient(#fcb52e, #f15b65);
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.login_bg {
+  background-color: #ffffff;
+  padding: 5%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-image: url("../../assessts/images/homepage/Vroar_LineArt_Half.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 12%;
+}
+
+.close {
+  position: relative;
+}
+
+.close_button {
+  border: 1px solid #333;
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 67%;
+  bottom: 70%;
+}
+
+.close_button:hover {
+  border: 1px solid #f15d17;
+  color: #f15d17;
+}
+
+.image_roar {
+  width: 200px;
+}
+
+.wave {
+  position: absolute;
+  width: 90%;
+  left: 0;
+  top: 93%;
+}
+
+@media screen and (max-width: 600px) {
+  .bg_circle {
+    width: 320px;
+    height: 445px;
+  }
+
+  .close_button {
+    left: 90%;
+    top: 0;
+  }
+}

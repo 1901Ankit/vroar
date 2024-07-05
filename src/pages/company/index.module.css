@@ -1,0 +1,226 @@
+.banner_subheading {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.banner_heading {
+  font-size: 30px;
+}
+
+.border-right {
+  border-right: 1px solid #656161;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+/* .swiper {
+  width: 100%;
+ 
+} */
+.mySwiper {
+  width: 300px;
+  height: 380px;
+}
+
+.mobile_testimonial {
+  border-radius: 5px;
+  border: 1px solid #656161;
+  /* text-align: center; */
+  height: 100%;
+  background: #fff6ed;
+}
+
+.mobile_carousel {
+  display: none;
+}
+
+
+
+
+
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 18px; */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.testimonial_wrapper {
+  border-radius: 5px;
+  border: 1px solid #656161;
+  /* text-align: center; */
+  height: 100%;
+  background: #fff6ed;
+}
+
+.testimonial_wrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.mobile_testimonial img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimonial_wrapper h6 {
+  color: #000;
+}
+
+.testimonial_wrapper p:nth-child(1n) {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.tab_section {
+  /* border: 1px solid #656161; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress_work {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.progress__work {
+  border-left: 5px solid #ff9a7d;
+  background-color: #ff997d8e;
+}
+
+.progress_work:hover {
+  color: #ff9a7d;
+  background: #ffffff;
+  border: 1px solid #ff9a7d;
+}
+
+.wrapper_progress {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.img__wrapper {
+  width: 20px;
+  height: 20px;
+}
+
+.testi_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.testi_heading h1 {
+  font-size: 45px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.imagebg {
+  text-align: right;
+}
+
+.internships_providers {
+  background: transparent;
+  border: 1px solid var(--grey);
+  padding: 20px;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.section_spcr {
+  margin: 100px auto;
+}
+
+.text_align_center {
+  text-align: center !important;
+}
+
+.page__title {
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  line-height: 1.2;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 50px !important;
+}
+
+.page__head_title {
+  font-style: normal;
+  font-weight: 800;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  line-height: 1.2;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 50px !important;
+}
+
+@media screen and (max-width:600px) {
+  .company_journey {
+    display: none;
+  }
+
+  .text_align_center {
+    text-align: left !important;
+  }
+
+  .internships_providers {
+    width: 100%;
+  }
+
+  .mySwiper {
+    display: none !important;
+  }
+
+  .section_spcr {
+    margin: 60px auto;
+  }
+
+
+
+  .mobile_carousel {
+    display: block !important;
+  }
+
+  .mobile_testimonial {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-left: 1rem;
+    text-align: start !important;
+  }
+}

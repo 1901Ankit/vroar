@@ -1,0 +1,108 @@
+.journey_border {
+  border: 1px solid var(--grey) ;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+.journey_first {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  left: 25px;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  background-image: linear-gradient(#f15b65, #fcb52e);
+  color: #000;
+}
+
+
+
+.journey {
+  transition: 0.5s ease all;
+}
+.journey:hover {
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  background:  var(--grey);
+  scale: 1.1;
+  color: #000;
+}
+.journey_second {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  right: 25px;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  background:  var(--grey);
+  color: #000;
+}
+.journey_third {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  right: 45px;
+   background:  var(--grey);
+  color: #000;
+}
+.journey_fourth {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  left: 45px;
+  background:  var(--grey);
+  color: #000;
+}
+.journey_fifth {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  left: 25px;
+   background:  var(--grey);
+  color: #000;
+}
+.journey_sixth {
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+  /* background-image: linear-gradient(#f15b65, #fcb52e); */
+  right: 25px;
+ background:  var(--grey);
+   color: #000;
+}
+
+.cirls{
+  padding-left: 45px;
+}
+
+.journey_first:hover{color: #fff !important;   background-image: linear-gradient(#f15b65, #fcb52e);}

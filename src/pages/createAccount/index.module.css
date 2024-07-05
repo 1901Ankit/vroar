@@ -1,0 +1,41 @@
+.input_otp::placeholder {
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+}
+.input_otp:focus {
+  outline: none;
+}
+
+.country_code {
+  border: none;
+  background: #eee;
+  height: 52px;
+  text-align: center;
+  width: 40px;
+}
+.country_code:focus {
+  outline: none;
+}
+.border_flex {
+  border: 1px solid var(--grey);
+  display: flex;
+  align-items: center;
+  background: var(--grey);
+  width: 100%;
+}
+.flags_select {
+  padding: 0 !important;
+  bottom: 8px;
+  background-color: var(--grey);
+  
+}
+.flags_select button {
+  height: 48px;
+  border-radius: 0px;
+  border: none;
+}
+.flags_select ul {
+  width: 125px;
+}

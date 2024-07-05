@@ -1,0 +1,21 @@
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.company_list:hover {
+    color: #f15d17;
+}
+
+.company_list:hover .logo {
+    border: 1px solid #f15d17;
+}
+.pagination_wrapper{
+    position: relative;
+    margin-top: 50px;
+}
+.pagination{
+    position: absolute;
+    bottom: 0;
+}

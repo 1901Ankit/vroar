@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.speedometer2 {
+  position: absolute;
+}
+.beforedot {
+  width: 10px;
+  height: 10px;
+  background-color: #f15d17;
+  border-radius: 50%;
+}
+.afterdot {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}

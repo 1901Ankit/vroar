@@ -1,0 +1,137 @@
+.white_bg {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.bg_Arrow {
+  background-image: url("../../assessts/images/dashboard/arrow.png");
+  height: 10vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_student {
+  width: 60px;
+  height: 60px;
+}
+
+.white_wrapper {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+
+
+.jobs_description {
+  border: 1px solid grey;
+  /* resize: none; */
+  background-color: transparent;
+  border-radius: 3px;
+  height: 50px;
+  width: 100%;
+  /* padding: 12px; */
+}
+
+.jobs_description:focus {
+  outline: none;
+}
+
+.stipend_selector {
+  border: none;
+  font-size: 12px;
+  background: transparent;
+}
+
+.stipend_selector:focus {
+  outline: none !important;
+}
+
+.workmode_Selector {
+  border: 1px solid #000;
+  padding: 12px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.workmode_Selector:focus {
+  outline: none;
+}
+
+.date_picker {
+  border: 1px solid #000;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.suggested {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.latestinternship {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.jobs_desc:hover{
+color: var(--orangeColor);
+}
+
+.latestinternship:hover {
+  color: var(--orangeColor);
+}
+
+.internship_link {
+  color: #000;
+  text-decoration: none;
+}
+
+.internship_link:hover {
+  color: var(--orangeColor);
+}
+
+.details_link {
+  color: #000;
+  text-decoration: none;
+}
+
+.suggested:hover {
+  color: #f15d17;
+}
+
+.suggested:hover img {
+  border: 1px solid #f15d17;
+}
+
+.dot_job {
+  width: 10px;
+  height: 10px;
+  background-color: #f15d17;
+  border-radius: 50%;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  /* background-color: #f15d17; */
+  border-radius: 50%;
+}
+
+.border__top {
+  border-top: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}

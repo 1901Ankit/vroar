@@ -1,0 +1,53 @@
+.StudentInternship {
+  color: red;
+}
+
+.intenship_data {
+  background-color: transparent;
+  padding: 17px;
+  border: 1px solid rgb(187, 184, 184);
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.selectbar_items {
+  width: 20%;
+  background-color: transparent;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.image_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.applied {
+  background-color: var(--orangeColor);
+  color: #ffffff;
+  padding: 5px;
+  /* position: fixed; */
+  /* width: 270px; */
+  /* width: 100%; */
+  /* margin-bottom: 10px; */
+}
+
+.skills::before {
+  content: "⚫";
+  font-size: 5px;
+  margin-right: 5px;
+}
+
+.skills {
+  font-size: 12px;
+}
+
+.student_detail:hover {
+  border: 1px solid #f15d17;
+}
+
+.student_detail {
+  border: 1px solid #d7d7d7;
+  margin-top: 5px;
+}

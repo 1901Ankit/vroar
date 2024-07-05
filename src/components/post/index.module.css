@@ -1,0 +1,43 @@
+.postimage {
+  width: 100%;
+}
+
+.image_caption {
+  background-color: #d2d2d2;
+}
+
+.multi_media {
+  border-top: 1px solid rgb(218, 215, 215);
+  background-color: transparent;
+  padding: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  /* border-radius: 50%; */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.student_detail {
+  border: 1px solid transparent;
+}
+
+.student_detail:hover {
+  border: 1px solid #f15d17;
+  box-shadow: 0px 0px 2px 2px #00000038;
+  border-radius: 5px;
+}
+
+.student_detail {
+  transition: 0.5s ease all;
+}

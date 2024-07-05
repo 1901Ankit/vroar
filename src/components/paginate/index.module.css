@@ -1,0 +1,63 @@
+.react_paginate {
+    display: flex;
+    align-items: center;
+
+}
+
+.react_paginate li {
+    list-style: none outside none !important;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #d7d7d7;
+    padding: 4px;
+    height: 30px;
+
+}
+
+
+
+
+
+.nextButton {
+    border: 1px solid #f15d17;
+    background: #f15d17;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+
+.previousLinkClassName {
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.previousLinkClassName:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.previousButton {
+    border: 1px solid #f15d17;
+    background: #f15d17;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+}
+
+/* .react_paginate ul {
+    padding-inline-start: 0px !important;
+} */
+
+.activeClassName {
+    color: #ffffff;
+    /* border: 1px solid var(--orangeColor); */
+    /* width: 30px; */
+    text-align: center;
+    background: var(--gradient);
+}

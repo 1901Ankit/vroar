@@ -1,0 +1,23 @@
+.list::before {
+  content: "#";
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.companyrepresentativeimage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile_image {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 30px;
+
+}

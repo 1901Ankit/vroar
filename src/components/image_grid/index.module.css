@@ -1,0 +1,51 @@
+.gridimage {
+  display: flex;
+}
+.gridimage2 {
+  position: relative;
+  right: 14px;
+  top: 1px;
+}
+.gridimage3 {
+  position: relative;
+  bottom: 30px;
+}
+.gridimage1 {
+  width: 130px;
+  height: 95px;
+}
+
+@media screen and (max-width: 600px) {
+  .gridimage {
+    justify-content: center;
+  }
+  .mobile_view {
+    text-align: center;
+  }
+  .image_grid_mobile {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .gridimage2 {
+    width: 95px;
+  }
+  .gridimage3 {
+    width: 160px;
+  }
+  .gridimage1 {
+    width: 95px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .gridimage2 {
+    width: 95px;
+  }
+  .gridimage3 {
+    width: 160px;
+  }
+  .gridimage1 {
+    width: 95px;
+  }
+}

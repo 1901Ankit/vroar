@@ -1,0 +1,101 @@
+/* Parent View styles */
+.parentview {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Invitation Card styles */
+.invitationcard {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 7px;
+    background: transparent;
+
+}
+
+.invitationcard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.studentinfo h2 {
+    font-size: 15px;
+    margin: 0;
+    color: #333;
+}
+
+.heading {
+    font-size: 16px;
+}
+
+.studentinfo p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.actionbuttons {
+    margin-left: auto;
+}
+
+.approvebutton,
+.rejectbutton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.approvebutton {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.rejectbutton {
+    background-color: #f44336;
+    color: #fff;
+}
+
+/* Empty state styles */
+.parentview p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Responsive styles (adjust as needed) */
+@media screen and (max-width: 768px) {
+    .invitation-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .invitation-card img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .student-info h2 {
+        font-size: 18px;
+    }
+
+    .student-info p {
+        font-size: 14px;
+    }
+
+    .action-buttons {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+}

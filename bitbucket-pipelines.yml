@@ -1,0 +1,35 @@
+image: node:16
+
+# Workflow Configuration
+
+pipelines:
+  branches:
+    dev:
+      - parallel:
+        - step:
+            name: Build and Test
+            script:
+              - npm install
+              - npm run build
+            artifacts:
+              - out/**
+        - step:
+            name: Security Scan
+            script:
+              - pipe: atlassian/git-secrets-scan:0.5.1
+      - step:
+          name: Deploy to Production
+          deployment: main
+          trigger: manual
+          clone:
+            enabled: false
+          script:
+            # sync your files to S3
+            - pipe: atlassian/aws-s3-deploy:1.1.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: 'vroaradmin'
+                LOCAL_PATH: 'out'
+

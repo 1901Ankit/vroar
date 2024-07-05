@@ -1,0 +1,147 @@
+.image {
+    margin-left: -75px;
+    width: 200px;
+}
+
+
+.bg_circle {
+    background-image: linear-gradient(#fcb52e, #f15b65);
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.login_bg {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-image: url("../assessts/images/homepage/Vroar_LineArt_Half.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12%;
+}
+
+
+
+.bg_image {
+    background-image: url('../assessts/images/profile/vroar_bgimage.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.mobile_bg_image {
+    background-image: url('../assessts/images/profile/vroar_bgimage.jpg');
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.heading h3 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heading {
+    padding: 2rem;
+}
+
+.close_button {
+    border: 1px solid #333;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.close_button:hover {
+    border: 1px solid #f15d17;
+    color: #f15d17;
+}
+
+.image_roar {
+    width: 200px;
+}
+
+.wave {
+    position: absolute;
+    width: 90%;
+    left: 0;
+    top: 93%;
+}
+
+.closeButton {
+    border: 1px solid #333;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 17.5%;
+    width: fit-content;
+    width: 30px;
+    height: 30px;
+    bottom: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.closeButton:hover {
+    border: 1px solid #f15d17;
+    color: #f15d17;
+}
+
+.signup {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.signup_mobile {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+.mobile_page {
+    display: none;
+}
+
+.desktop_page {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .bg_circle {
+        width: 320px;
+        height: 445px;
+    }
+
+    .signup {
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+    }
+
+    .closeButton {
+        bottom: 95%;
+        right: 13%;
+    }
+
+    .mobile_page {
+        display: block;
+    }
+
+    .desktop_page {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+}
+.chart1 {
+  width: 300px;
+  margin: auto;
+}
+.chart2 {
+  position: absolute;
+  bottom: 30px;
+  width: 240px;
+  left: 68.5px;
+}
+.chart3 {
+  position: absolute;
+  bottom: 90px;
+  width: 120px;
+  left: 128.5px;
+}

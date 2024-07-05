@@ -1,0 +1,10 @@
+.verify_otp:focus {
+  outline: none;
+}
+.verify_otp {
+  text-align: center;
+  height: 50px;
+  width: 50px !important;
+  margin-left: auto;
+  margin-right:auto;
+}

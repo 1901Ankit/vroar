@@ -1,0 +1,23 @@
+.company_logo {
+    border-radius: 50%;
+}
+
+.heading_title {
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.heading_title:hover {
+    text-decoration: underline;
+    color: #F15d17;
+}
+
+.jobs__wrapper {
+    border-right: 1px solid #d7d7d7;
+}
+
+.peicrt{
+    height: 100px;
+    width: 230px;
+}

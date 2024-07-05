@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.paginationButton {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+.paginationButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.paginationText {
+  margin: 0 15px;
+  font-size: 12px;
+}

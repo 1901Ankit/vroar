@@ -1,0 +1,16 @@
+.range_slider {
+  border: 1px solid var(--orangeColor);
+  width: 100%;
+  height: 8px;
+  border-radius: 8px;
+  position: relative;
+}
+.range_dot {
+  height: 20px;
+  width: 20px;
+  background-color: var(--orangeColor);
+  border: 1px solid var(--orangeColor);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -6px;
+}

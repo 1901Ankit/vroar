@@ -1,0 +1,11 @@
+.date_picker {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.dob_calendar {
+    background: #fff;
+    box-shadow: 0px 0px 1px 1px #eee;
+}
